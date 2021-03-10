@@ -3,11 +3,11 @@
 O projeto foi criado usando o .net core 3.1.
 O acesso a dados esta configurado para um banco local SQL Server
 
-    # Autenticação
-    * Autenticação JWT.
+# Autenticação
+* Autenticação JWT.
     * Token de 15 minutos de duração
-    # Swagger UI
-    * Possui o swagger, acesso em /swagger/
+# Swagger UI
+* Possui o swagger, acesso em /swagger/
     # Autenticador/Login
     * Este endpoint deverá ter as seguintes implementações: 
       * Método DoLogin recebendo parametros: email e senha: 

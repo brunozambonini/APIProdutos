@@ -10,7 +10,7 @@ O acesso a dados esta configurado para um banco local SQL Server
 * Possui o swagger, acesso em /swagger/
     # Autenticador/Login
     * Método DoLogin recebendo parametros: email e senha: 
-    * (usuario: prova@doubleit.com.br, senha: Prova@DoubleIt21, nome: Candidato)
+    * (usuario: exemplo@exemplo.com.br, senha: exemplo123, nome: exemplo)
     * valida se as credenciais do usuário estão corretas através de uma consulta ao banco de dados passando email e senha
     * caso não existe uma mensagem de Usuario não encontrado" é ser informada
     * caso exista cria um token e adiciona uma claim chamada "user" passando o objeto usuario vindo do banco de dados
